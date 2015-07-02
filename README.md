@@ -137,7 +137,7 @@ Running gulp in folder "develop" to minify src/index.html and move the minified 
 gulp 
 ```
 
-Add and commit those changes.  
+Add and commit those changes in "develop" branch.  
 
 ```
 git add .
@@ -150,7 +150,7 @@ Push to the "develop" branch.
 git push origin develop
 ```
 
-Finally, lets copy the files in branches-as-subfolders/develop/build to branches-as-subfolders/master and to branches-as-subfolders/gh-pages.  Add and commit those changes in master and gh-pages.  Then push to the "master" branch and "gh-pages" branch.  
+Finally, lets copy the files in branches-as-subfolders/develop/build to branches-as-subfolders/master and to branches-as-subfolders/gh-pages.  Add and commit those changes in "master" branch and "gh-pages" branch respectively.  Then push to the "master" branch and "gh-pages" branch.  
 
 ## Reference 
-(https://gist.github.com/chrisjacob/833223) by Chris Jacob 
+https://gist.github.com/chrisjacob/833223 by Chris Jacob 
