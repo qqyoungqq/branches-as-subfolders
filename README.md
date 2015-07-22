@@ -24,7 +24,6 @@ The final folder structure on my local system is:
 /branches-as-subfolders/gh-pages/.git # checkout of "gh-pages" branch
 /branches-as-subfolders/gh-pages/README.textfile 
 /branches-as-subfolders/gh-pages/index.html
-/
 ```
 
 ## Process
@@ -36,6 +35,8 @@ Open Terminal.app, create project parent folder "branches-as-subfolders", and a 
 ```
 mkdir branches-as-subfolders
 cd braches-as-subfolders
+mkdir master
+cd master
 git init
 echo "# Master README file" > README.md
 git add .
