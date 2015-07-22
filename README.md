@@ -116,7 +116,7 @@ Then we can install gulp package to automatically generate build code from src c
 ```
 npm install -g gulp
 npm install gulp --save-dev
-npm install gulp-gulp-minify-html --save-dev
+npm install gulp-minify-html --save-dev
 ```
 
 Now let's add some code to our gulpfile.js file. Add this code inside:  
